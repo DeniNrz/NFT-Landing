@@ -1,0 +1,23 @@
+.companies__main {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   grid-gap: 0px 20px;
+
+   img {
+      width: 18%;
+
+      @media(max-width: 900px) {
+         width: 33%;
+      }
+   }
+}
+
+.companies {
+   margin: 200px 0 180px;
+
+   @media(max-width: 850px) {
+      margin: 75px 0;
+   }
+}
